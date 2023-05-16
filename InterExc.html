@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+       
+        textarea{
+            border-radius: 25px;
+            background-color: rgb(27, 136, 136);
+
+        }
+        
+        input{
+            border-radius: 25px;
+            background-color: rgb(36, 6, 146);
+
+        }
+
+        input[type="radio"] {
+            accent-color: red;
+        }
+    </style>
+</head>
+<body bgcolor="purple">
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <main>
+        <div >
+            <form >
+                <label for="FName"><b>First Name:</b></label>
+                <input type="text" placeholder="Name" id="Name">
+                <br> <br>
+                <label for="LName"><b>Last Name:</b></label>
+                <input type="text" placeholder="Last Name" id="Name">
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+             <label for="Course"> <b>Select Course</b></label>
+            <select name="Course" id="Course">
+                <option value="HTNL">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Git">Git</option>
+                <option value="Javascript">Javascript</option>
+            </select>
+        </div>
+
+        <div>
+            
+            <form>
+                 <p><B>Gender</B></p>
+
+                <input type="radio" name="Gender" id="male"  value="Male">
+                <label for="male">Male</label> <br>
+
+                <input type="radio" name="Gender" id="female"  value="Female">
+                <label for="female">Female</label> <br>
+
+                <input type="radio" name="Gender" id="diverse"  value="Diverse">
+                <label for="diverse">Diverse</label> <br>
+            </form>
+        </div>
+
+        <div>
+            <form>
+                <p><b>Hobbies</b></p>
+
+                <input type="checkbox" name="Hobbies" id="bike" value="Bike">
+                <label for="bike">Bike</label> <br>
+
+                <input type="checkbox" name="Hobbies" id="music" value="Music">
+                <label for="music">Music</label> <br>
+
+                <input type="checkbox" name="Hobbies" id="sports" value="Sports">
+                <label for="sports">Sports</label>
+            </form>
+        </div>
+        <br>
+
+        <div>
+           <form>
+                <label for="phone"><b>Phone: </b></label>
+                <input type="" placeholder="Phone" name="Phone">
+           </form> 
+        </div>
+
+        <div>
+            <form>
+                <p><B>Address</B></p>
+
+                <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+                <label for="Address"></label>
+            </form>
+        </div>
+
+        <br>
+
+        <div>
+            <form>
+                <label for="Email"><b>Email : </b></label>
+                <input type="text" placeholder="Email" id="Email">
+                <br>
+                <br>
+                <label for="password"><b>Password :</b></label>
+                <input type="password" placeholder="Password" id="Password">
+            </form>
+        </div>
+        <br>
+
+        <div>
+            <form>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <br>
+        <nav>
+            <a href="BExc1.html">BExc1</a>
+            <a href="BExc2.html">BExc2</a>
+            <a href="BExc3.html">BExc3</a>
+            <a href="Bexc4.html">Bexc4</a>
+        </nav>
+    </footer>
+</body>
+</html>
