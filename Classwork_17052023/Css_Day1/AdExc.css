@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+
+    background-image: url(newspaperBackground.jpg);
+}
+
+header{
+    background-color: rgb(247, 198, 138);
+    border-radius: 10px;
+}
+div{
+    border-radius: 10px;
+    background-color:rgb(247, 198, 138);
+}

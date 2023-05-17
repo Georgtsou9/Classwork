@@ -1,0 +1,33 @@
+/* Give all the divs a margin of 5px*/
+div{
+    margin: 5px;
+}
+/*The h1 element should have a text color blue. */
+h1{
+    color: blue
+}
+/*Hide the span element that is the direct child of the div with the id of “third” keeping its space on the dom.*/
+#third > span {
+    /*visibility: hidden;*/
+}
+/*Hide the paragraph from a right class NOT keeping its space on the dom*/
+.right p {
+   /* display: none;*/
+}
+
+/*Give the image a width and height of 300px*/
+#image{
+    width: 300px;
+}
+
+p{
+    color: red;
+}
+
+/*CSS Interemediate Exercise */
+
+/*give the p-element in the <div id='third'> a background-color of your choice*/
+#third p{
+    background-color: blueviolet;
+}
+
